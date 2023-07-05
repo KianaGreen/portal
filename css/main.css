@@ -1,62 +1,79 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=BenchNine');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 
 html {
-    background-color: rgb(209, 168, 138);
-    background: color #bdacaad6;;
-    font-family: 'BenchNine', serif;
+    background: linear-gradient(135deg, #d5b8d6, #f3d4de, rgb(250, 220, 217), rgb(246, 197, 193), #eaa9af);
+    font-family: 'Montserrat', sans-serif; /* Replace 'Montserrat' with the desired font name */
     font-size: 0.95em;
     line-height: 1.5em;
-}
+  }
 
-::selection {
-    color: #000; 
+
+  ::selection {
+    color: #000;
     background: #ff0;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-weight: normal;
     margin: auto;
-    background: rgb(209, 168, 138);
+    background: #f7f7f7; /* Update to a new background color */
     line-height: 2.5em;
-}
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
-h1.page-header{
-    font-family: 'BenchNine' , serif;
-}
+  h1.page-header {
+    font-family: 'Ubuntu', sans-serif; /* Replace 'Ubuntu' with the desired font name */
+    font-weight: 700; /* Adjust the font weight if necessary */
+    color: #000000; /* Specify the desired text color */
+  }
+  
 
-main.wrapper {
-    background-color: rgb(209, 168, 138);
+
+  main.wrapper {
+    background-color: #f7f7f7; /* Update to a new background color */
     overflow: auto;
-}
+  }
+  
+  p {
+    margin: 1em;
+    color: #333;
+  }
+  
 
-p {
-    margin: 1em; /* Top Right Bottom Left (TRBL) */
-}
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-h2,h3 {
-    font-weight: normal;
-    margin-left: 1em;
-    line-height: 1em;
+h2, h3 {
+  font-weight: normal;
+  margin-left: 1em;
+  line-height: 1em;
+  color: rgb(250, 148, 158); /* Dark lavender color */
 }
 
 a {
-    color:darkcyan;
-    text-decoration: none;
+  color: rgb(212, 138, 214); /* Nude pink color */
+  text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
-    text-decoration: none;
+  color: #ffffff; /* Text color on hover (white) */
+  background-color: rgb(201, 169, 172); /* Background color on hover */
+  text-decoration: none;
 }
 
-footer {
+  
+  
+  
+  footer {
     clear: both;
     text-align: center;
     padding: 1em;
-}
+  }
+  
+
 
 /* Responsive rules */
 
