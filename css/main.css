@@ -1,16 +1,15 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html {
-    background: linear-gradient(135deg, #d5b8d6, #f3d4de, rgb(250, 220, 217), rgb(246, 197, 193), #eaa9af);
-    font-family: 'Montserrat', sans-serif; /* Replace 'Montserrat' with the desired font name */
-    font-size: 0.95em;
-    line-height: 1.5em;
-  }
+  background: linear-gradient(135deg, #f5a6e6, #ffc0cb, #b39cd0);
+  font-family: 'Bebas Neue', sans-serif; /* Replace 'Bebas Neue' with the desired font name */
+  font-size: 0.95em;
+  line-height: 1.5em;
+}
 
-
+  
   ::selection {
     color: #000;
     background: #ff0;
@@ -23,13 +22,17 @@ html {
     line-height: 2.5em;
   }
   
-  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
   h1.page-header {
-    font-family: 'Ubuntu', sans-serif; /* Replace 'Ubuntu' with the desired font name */
-    font-weight: 700; /* Adjust the font weight if necessary */
+    font-family: 'Bebas Neue', sans-serif; /* Replace 'Bebas Neue' with the desired font name */
+    font-weight: normal; /* Set the font weight to normal */
+    font-size: 2em; /* Adjust the font size as needed */
     color: #000000; /* Specify the desired text color */
+    text-shadow: none; /* Add a subtle text shadow for better visibility */
   }
+  
+  
   
 
 
@@ -50,7 +53,7 @@ h2, h3 {
   font-weight: normal;
   margin-left: 1em;
   line-height: 1em;
-  color: rgb(250, 148, 158); /* Dark lavender color */
+  color: rgb(0, 0, 0); /* Dark lavender color */
 }
 
 a {
@@ -59,11 +62,19 @@ a {
 }
 
 a:hover {
-  color: #ffffff; /* Text color on hover (white) */
-  background-color: rgb(201, 169, 172); /* Background color on hover */
-  text-decoration: none;
-}
-
+    text-decoration: none;
+    font-weight: bold; /* Make the text bold on hover */
+  }
+  
+  .menu-item {
+    transition: transform 0.2s ease-in-out; /* Add transition for smooth animation */
+  }
+  
+  .menu-item:hover {
+    transform: scale(2.0); /* Scale up the menu item on hover */
+  }
+  
+  
   
   
   
