@@ -1,10 +1,10 @@
-/* Global rules */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html {
   background: linear-gradient(135deg, #f5a6e6, #ffc0cb, #b39cd0);
-  font-family: 'Bebas Neue', sans-serif; /* Replace 'Bebas Neue' with the desired font name */
+  font-family: 'Bebas Neue', sans-serif; 
   font-size: 0.95em;
   line-height: 1.5em;
 }
@@ -18,18 +18,18 @@ html {
   h1 {
     font-weight: normal;
     margin: auto;
-    background: #f7f7f7; /* Update to a new background color */
+    background: #f7f7f7; 
     line-height: 2.5em;
   }
   
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
   h1.page-header {
-    font-family: 'Bebas Neue', sans-serif; /* Replace 'Bebas Neue' with the desired font name */
-    font-weight: normal; /* Set the font weight to normal */
-    font-size: 2em; /* Adjust the font size as needed */
-    color: #000000; /* Specify the desired text color */
-    text-shadow: none; /* Add a subtle text shadow for better visibility */
+    font-family: 'Bebas Neue', 
+    font-weight: normal; 
+    font-size: 2em; 
+    color: #000000; 
+    text-shadow: none; 
   }
   
   
@@ -37,7 +37,7 @@ html {
 
 
   main.wrapper {
-    background-color: #f7f7f7; /* Update to a new background color */
+    background-color: #f7f7f7; 
     overflow: auto;
   }
   
@@ -53,25 +53,25 @@ h2, h3 {
   font-weight: normal;
   margin-left: 1em;
   line-height: 1em;
-  color: rgb(0, 0, 0); /* Dark lavender color */
+  color: rgb(0, 0, 0); 
 }
 
 a {
-  color: rgb(212, 138, 214); /* Nude pink color */
+  color: rgb(212, 138, 214);
   text-decoration: none;
 }
 
 a:hover {
     text-decoration: none;
-    font-weight: bold; /* Make the text bold on hover */
+    font-weight: bold; 
   }
   
   .menu-item {
-    transition: transform 0.2s ease-in-out; /* Add transition for smooth animation */
+    transition: transform 0.2s ease-in-out; 
   }
   
   .menu-item:hover {
-    transform: scale(2.0); /* Scale up the menu item on hover */
+    transform: scale(2.0); 
   }
   
   
@@ -84,9 +84,7 @@ a:hover {
   
 
 
-/* Responsive rules */
 
-/* DESKTOP */
 @media all and (min-width:1200px) {
     main.wrapper {
         width: 80%;
@@ -106,7 +104,7 @@ a:hover {
     
 }
 
-/* TABLET */
+
 @media all and (min-width:501px) and (max-width:1199px) {
     main.wrapper {
         width: 90%;
@@ -126,7 +124,7 @@ a:hover {
 
 }
 
-/* PHONE */
+
 @media all and (max-width:500px) {
     main.wrapper {
         width: 100%;
